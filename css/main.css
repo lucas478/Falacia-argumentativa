@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.title{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+#existem_quantas{
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.argumentos{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.argumentos details ~ details{
+    display: flex;
+    line-height: 50px;
+}
+
+
+.argumentos p{
+    line-height: 20px;
+}
